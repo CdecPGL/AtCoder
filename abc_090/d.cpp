@@ -1,3 +1,5 @@
+// Score: 0/400(TLE)
+
 #include <iostream>
 
 using namespace std;

@@ -1,3 +1,5 @@
+// Score: 100/100
+
 #include <iostream>
 #include <algorithm>
 

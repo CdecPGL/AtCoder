@@ -1,3 +1,5 @@
+// Score: 300/300
+
 #include <iostream>
 
 using namespace std;

@@ -1,3 +1,5 @@
+// Score: 500/500
+
 #include <iostream>
 #include <vector>
 #include <set>
