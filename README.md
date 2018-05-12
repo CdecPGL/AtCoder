@@ -11,4 +11,5 @@ A repository for my source codes used in AtCoder
 - AtCoder Grand Contest 022 (Score: 300/6400, Performance: 1569, 434th)
 - AtCoder Beginner Contest 093 (Score: 600/1300, Performance: 884, 392th)
 - AtCoder Beginner Contest 094 (Score: 1000/1000, Performance: 1023, 304th)
-- AtCoder Beginner Contest 095 (Score: 600/1000, Performance: 520, 780th)
+- AtCoder Beginner Contest 095 (Score: 600/1000, Performance: 520, 780th, 40分から途中参加)
+- AtCoder Beginner Contest 097 (Score: 300/1000, Performance: 705, 629th, 40分で途中退室)
