@@ -22,6 +22,10 @@ def compile_clang(file_path):
     return COMPILED_FILE_PATH
 
 
+def convert_str_to_val_of_list_list(list_list):
+    return [[float(item) for item in line.split(" ")]for line in list_list]
+
+
 def main():
     if len(sys.argv) == 2:
         source_path = sys.argv[1]
@@ -44,6 +48,10 @@ def main():
     with open(test_data_path, "r") as test_data_file:
         test_data_obj = json.load(test_data_file)
     test_data_list = test_data_obj["test_data"]
+    try:
+        output_matching = test_data_obj["test_setting"]["output_matching"]
+    except KeyError:
+        output_matching = "string"
     success_count = 0
     failed_count = 0
     for idx, test_data in enumerate(test_data_list):
@@ -55,6 +63,10 @@ def main():
         start_time = time.perf_counter()
         outputed_lines = [stdout_line.rstrip("\n") for stdout_line in proc.communicate(
             ("\n".join(input_data) + "\n").encode('utf-8'), timeout=TIMEOUT)[0].decode('utf-8').split("\n")]
+        # 出力を値として扱う
+        if output_matching == "value":
+            output_data = convert_str_to_val_of_list_list(output_data)
+            outputed_lines = convert_str_to_val_of_list_list(outputed_lines)
         elapsed_time = time.perf_counter() - start_time
         if all([output_data_line == outputed_line for output_data_line, outputed_line in zip_longest(output_data, outputed_lines)]):
             print("Test suceed! (elapsed time: {:,.3f}ms)".format(
