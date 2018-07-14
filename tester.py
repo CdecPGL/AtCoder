@@ -26,6 +26,12 @@ def convert_str_to_val_of_list_list(list_list):
     return [[float(item) for item in line.split(" ")]for line in list_list]
 
 
+def remove_tail_empty_item(item_list):
+    if item_list and not item_list[len(item_list) - 1]:
+        del item_list[len(item_list) - 1]
+    return item_list
+
+
 def main():
     if len(sys.argv) == 2:
         source_path = sys.argv[1]
@@ -63,6 +69,9 @@ def main():
         start_time = time.perf_counter()
         outputed_lines = [stdout_line.rstrip("\n") for stdout_line in proc.communicate(
             ("\n".join(input_data) + "\n").encode('utf-8'), timeout=TIMEOUT)[0].decode('utf-8').split("\n")]
+        # 末尾の空データを除去する
+        output_data = remove_tail_empty_item(output_data)
+        outputed_lines = remove_tail_empty_item(outputed_lines)
         # 出力を値として扱う
         if output_matching == "value":
             output_data = convert_str_to_val_of_list_list(output_data)
