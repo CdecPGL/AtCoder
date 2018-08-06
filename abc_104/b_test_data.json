@@ -1,0 +1,44 @@
+{
+    "test_data": [
+        {
+            "input": [
+                "AtCoder"
+            ],
+            "output": [
+                "AC"
+            ]
+        },
+        {
+            "input": [
+                "ACoder"
+            ],
+            "output": [
+                "WA"
+            ]
+        },
+        {
+            "input": [
+                "AcycliC"
+            ],
+            "output": [
+                "WA"
+            ]
+        },
+        {
+            "input": [
+                "AtCoCo"
+            ],
+            "output": [
+                "WA"
+            ]
+        },
+        {
+            "input": [
+                "Atcoder"
+            ],
+            "output": [
+                "WA"
+            ]
+        }
+    ]
+}

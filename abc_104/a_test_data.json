@@ -1,0 +1,28 @@
+{
+    "test_data": [
+        {
+            "input": [
+                "1199"
+            ],
+            "output": [
+                "ABC"
+            ]
+        },
+        {
+            "input": [
+                "1200"
+            ],
+            "output": [
+                "ARC"
+            ]
+        },
+        {
+            "input": [
+                "4208"
+            ],
+            "output": [
+                "AGC"
+            ]
+        }
+    ]
+}
