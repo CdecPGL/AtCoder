@@ -18,3 +18,4 @@ A repository for my source codes used in AtCoder
 - AtCoder Grand Contest 026 (Score: 200/6100, Performance: 448, 1686th, 35/150分参加)
 - AtCoder Beginner Contest 104 (Score: 300/1000, Performance: 904, 954th)
 - AtCoder Beginner Contest 110 (Score: 600/1000, Performance: Unrated, 448th)
+- AtCoder Beginner Contest 116 (Score: 600/1000, Performance: 947, 649th)
