@@ -19,3 +19,4 @@ A repository for my source codes used in AtCoder
 - AtCoder Beginner Contest 104 (Score: 300/1000, Performance: 904, 954th)
 - AtCoder Beginner Contest 110 (Score: 600/1000, Performance: Unrated, 448th)
 - AtCoder Beginner Contest 116 (Score: 600/1000, Performance: 947, 649th)
+- みんなのプロコン 2019 (Score: 700/3000, Performance: 747, 1917th)
