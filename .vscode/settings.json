@@ -42,7 +42,11 @@
         "xmemory": "cpp",
         "xmemory0": "cpp",
         "xstddef": "cpp",
-        "xtr1common": "cpp"
+        "xtr1common": "cpp",
+        "iterator": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
     },
     "python.pythonPath": "D:\\Users\\JUNJUN\\Anaconda3\\python.exe"
 }
