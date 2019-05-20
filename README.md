@@ -26,3 +26,4 @@ A repository for my source codes used in AtCoder
 - AtCoder Beginner Contest 121 (Score: 600/1000, Performance: 661, 1885th)
 - AtCoder Beginner Contest 124 (Score: 600/1000, Performance: 888, 1800th, 45/100分参加)
 - diverta 2019 Programming Contest (Score: 1200/3200, Performance: Unrated, 1248th)
+- AtCoder Beginner Contest 126 (Score: 600/2100, Performance: Unrated, 1622th)
